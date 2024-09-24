@@ -1,0 +1,6 @@
+name: ParuRP
+version: '${project.version}'
+main: net.parucraft.parurp.ParuRP
+api-version: '1.21'
+authors: [ ParuPatch ]
+description: ParuCraft Roleplay Plugin
