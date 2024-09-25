@@ -1,5 +1,6 @@
 package net.parucraft.parurp;
 
+import net.parucraft.parurp.commands.AmericaYahCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
@@ -18,8 +19,8 @@ public final class ParuRP extends JavaPlugin {
         System.out.println("ParuRP Successfully Enabled");
         System.out.println("===========================");
         getServer().getPluginManager().registerEvents(new BlockBreakListener(), this);
+        getCommand("americayah").setExecutor(new AmericaYahCommand());
     }
-
     /**
      * <h1>onDisable</h1>
      * Actions that will be performed when the plugin is disabled

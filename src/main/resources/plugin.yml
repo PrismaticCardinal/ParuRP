@@ -4,3 +4,7 @@ main: net.parucraft.parurp.ParuRP
 api-version: '1.21'
 authors: [ ParuPatch ]
 description: ParuCraft Roleplay Plugin
+commands:
+  americayah:
+    description: HALLO
+    usage: /americayah
